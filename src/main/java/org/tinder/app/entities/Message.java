@@ -25,24 +25,4 @@ public class Message  {
         this.receiverId = receiverId;
         this.text = text;
     }
-
-    public Message(int id, int senderId, int receiverId, String text, String status) {
-        this.id = id;
-        this.senderId = senderId;
-        this.receiverId = receiverId;
-        this.text = text;
-        this.status = status;
-    }
-
-    public int getSenderId() {
-        return senderId;
-    }
-
-    public int getReceiverId() {
-        return receiverId;
-    }
-
-    public String getText() {
-        return text;
-    }
 }

@@ -13,13 +13,4 @@ public class Like {
     public Like(int likedUserId) {
         this.likedUserId = likedUserId;
     }
-
-    public Like(int userId, int likedUserId) {
-        this.userId = userId;
-        this.likedUserId = likedUserId;
-    }
-
-    public int getLikedUserId() {
-        return likedUserId;
-    }
 }

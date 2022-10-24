@@ -78,46 +78,4 @@ public class User {
         this.gender = gender;
     }
 
-    public User(int id, String login, String password, String name, String surname, String imgUrl, String position, String gender) {
-        this.id = id;
-        this.login = login;
-        this.password = password;
-        this.name = name;
-        this.surname = surname;
-        this.imgUrl = imgUrl;
-        this.position = position;
-        this.gender = gender;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public String getLogin() {
-        return login;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getSurname() {
-        return surname;
-    }
-
-    public String getImgUrl() {
-        return imgUrl;
-    }
-
-    public String getPosition() {
-        return position;
-    }
-
-    public String getGender() {
-        return gender;
-    }
 }
