@@ -34,7 +34,7 @@
         <#else>
         <a href="/login">Sign in</a>
         </#if>
-        <p class="mt-5 mb-3 text-muted">&copy; Tinder 2020</p>
+        <p class="mt-5 mb-3 text-muted">&copy; Tinder 2022</p>
     </form>
 
 </body>

@@ -32,7 +32,6 @@
                         </button>
                     </div>
                     <div class="col-12 col-lg-6">
-
                         <button name="like" type="submit" class="btn btn-outline-success btn-block"><span class="fa fa-heart"></span>
                             Like
                         </button>
