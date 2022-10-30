@@ -25,10 +25,8 @@ public class App {
 
     public static void main(String[] args) throws Exception {
 
-        DbSetup.migrate(
-                "postgres://ertwcqouskognp:fe5435ead3547487eb79c0dfd7d42ec0dec7e17e85ed4b4468f5713602de4dc4@ec2-52-23-131-232.compute-1.amazonaws.com:5432/ddohpjksno9atv",
-                "ertwcqouskognp",
-                "fe5435ead3547487eb79c0dfd7d42ec0dec7e17e85ed4b4468f5713602de4dc4");
+        DbSetup.migrate(System.getenv("JDBC_DATABASE_URL"),System.getenv("JDBC_DATABASE_USERNAME"),
+                System.getenv("JDBC_DATABASE_PASSWORD"));
 
         Connection connection = new DbConnection().connection();
 

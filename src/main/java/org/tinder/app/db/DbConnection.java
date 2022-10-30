@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DbConnection {
-    private final static String URL = "postgres://ertwcqouskognp:fe5435ead3547487eb79c0dfd7d42ec0dec7e17e85ed4b4468f5713602de4dc4@ec2-52-23-131-232.compute-1.amazonaws.com:5432/ddohpjksno9atv";
-    private final static String NAME = "ertwcqouskognp";
-    private final static String PWD = "fe5435ead3547487eb79c0dfd7d42ec0dec7e17e85ed4b4468f5713602de4dc4";
+    private final static String URL = System.getenv("JDBC_DATABASE_URL");
+    private final static String NAME = System.getenv("JDBC_DATABASE_USERNAME");
+    private final static String PWD = System.getenv("JDBC_DATABASE_PASSWORD");
     private Connection connection=null;
 
 
