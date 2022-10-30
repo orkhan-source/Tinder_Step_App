@@ -4,4 +4,3 @@ create table if not exists checked
 	checked integer
 );
 
-alter table checked owner to rhtdbelqzpdlct;

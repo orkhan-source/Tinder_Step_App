@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="tinder_app_master" />
         <module name="az-be4-classes" />
+        <module name="java-heroku-zero-to-hero" />
         <module name="TinderApp" />
       </profile>
     </annotationProcessing>

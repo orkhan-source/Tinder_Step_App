@@ -8,4 +8,4 @@ create table if not exists messages
 	text varchar
 );
 
-alter table messages owner to rhtdbelqzpdlct;
+
