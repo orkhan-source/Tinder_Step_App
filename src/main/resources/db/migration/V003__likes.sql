@@ -4,4 +4,3 @@ create table if not exists likes
 	liked integer
 );
 
-alter table likes owner to rhtdbelqzpdlct;

@@ -12,4 +12,3 @@ create table if not exists users
 	gender varchar
 );
 
-alter table users owner to rhtdbelqzpdlct;
